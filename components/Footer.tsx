@@ -20,7 +20,7 @@ export function Footer({ scrollToSection, onOpenSeekerTerms, onOpenEmployerTerms
               />
             <span className="text-2xl font-black text-white tracking-tight">JobLeo</span>
           </div>
-          <p className="text-sm font-bold text-slate-500 max-w-xs text-center md:text-left">
+          <p className="text-sm text-slate-500 max-w-xs text-center md:text-left">
             Nsukka's premier job placement partner. Vetted. Local. Direct.
           </p>
           <a
@@ -35,7 +35,7 @@ export function Footer({ scrollToSection, onOpenSeekerTerms, onOpenEmployerTerms
         <div className="grid grid-cols-2 gap-12 text-center md:text-left">
           <div>
             <h4 className="text-white font-black text-xs uppercase tracking-widest mb-6">Quick Links</h4>
-            <ul className="space-y-4 text-sm font-bold">
+            <ul className="space-y-4 text-sm">
               <li>
                 <button onClick={() => scrollToSection('how-it-works')} className="hover:text-brand-400 transition-colors">
                   Process
@@ -60,7 +60,7 @@ export function Footer({ scrollToSection, onOpenSeekerTerms, onOpenEmployerTerms
           </div>
           <div>
             <h4 className="text-white font-black text-xs uppercase tracking-widest mb-6">Legal</h4>
-            <ul className="space-y-4 text-sm font-bold">
+            <ul className="space-y-4 text-sm ">
               <li>
                 <button onClick={onOpenSeekerTerms} className="hover:text-brand-400 transition-colors">
                   Job Seeker Terms

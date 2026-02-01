@@ -15,7 +15,7 @@ export function ContactSection({ getWhatsAppLink }: ContactSectionProps) {
               <div className="w-2 h-2 rounded-full bg-brand-500 animate-ping"></div>
               Nsukka Job Hotline
             </div>
-            <h2 className="text-4xl md:text-5xl font-black mb-8 leading-tight tracking-tight">
+            <h2 className="text-3xl md:text-5xl font-black mb-8 leading-tight tracking-tight">
               The Best Talent <br />
               <span className="text-brand-500">Starts Here.</span>
             </h2>
@@ -29,21 +29,21 @@ export function ContactSection({ getWhatsAppLink }: ContactSectionProps) {
                 </div>
                 <div>
                   <p className="text-xs text-slate-500 font-black uppercase tracking-widest">Office Hours</p>
-                  <p className="text-lg font-bold text-white">Mon - Sat, 8AM - 6PM</p>
+                  <p className="text-[16px] font-bold text-white">Mon - Sat, 8AM - 6PM</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="lg:w-1/2 p-12 md:p-16 flex flex-col justify-center relative z-10 bg-slate-800/20">
-            <div className="bg-white/5 p-8 rounded-3xl border border-white/10 mb-8 backdrop-blur-sm">
+          <div className="lg:w-1/2 p-8 md:p-16 flex flex-col justify-center relative z-10 bg-slate-800/20">
+            <div className="bg-white/5 p-6 rounded-3xl border border-white/10 mb-8 backdrop-blur-sm">
               <p className="text-xs text-slate-500 font-black uppercase tracking-widest mb-4">Official WhatsApp</p>
-              <div className="text-3xl md:text-4xl font-black text-white tracking-tighter mb-8">
+              <div className="text-xl md:text-4xl font-black text-white tracking-tighter mb-8">
                 +234 912 813 1343
               </div>
               <a
                 href={getWhatsAppLink()}
                 target="_blank"
-                className="w-full py-6 bg-brand-500 text-white rounded-2xl font-black text-xl hover:bg-brand-400 flex items-center justify-center gap-3 shadow-2xl transition-all mb-6"
+                className="w-full py-4 bg-brand-500 text-white rounded-2xl font-black text-xl hover:bg-brand-400 flex items-center justify-center gap-3 shadow-2xl transition-all mb-6"
               >
                 Start Chatting
               </a>
