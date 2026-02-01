@@ -7,7 +7,7 @@ interface HeroProps {
 
 export function Hero({ scrollToSection }: HeroProps) {
   return (
-    <section className="relative py-24 md:py-40 px-4 overflow-hidden bg-white">
+    <section className="relative py-24 md:py-10 px-4 overflow-hidden bg-white ">
       <div className="absolute inset-0 z-0 opacity-[0.05] pointer-events-none">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
           <defs>
