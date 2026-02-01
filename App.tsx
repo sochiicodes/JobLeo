@@ -12,6 +12,7 @@ import {
   TermsSection,
   ContactSection,
   Footer,
+  ScrollToTop,
 } from './components';
 
 export default function App() {
@@ -86,6 +87,8 @@ export default function App() {
           setShowFullTerms(true);
         }}
       />
+
+      <ScrollToTop />
     </div>
   );
 }

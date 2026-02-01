@@ -8,3 +8,4 @@ export { FAQSection } from './FAQSection';
 export { TermsSection } from './TermsSection';
 export { ContactSection } from './ContactSection';
 export { Footer } from './Footer';
+export { ScrollToTop } from './ScrollToTop';
