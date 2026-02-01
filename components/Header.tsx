@@ -49,7 +49,7 @@ export function Header({
               href={getWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-2 bg-slate-900 text-white rounded-full hover:bg-slate-900/80 transition-all hover:shadow-xl hover:shadow-brand-100 active:scale-95 text-sm font-bold"
+              className="px-6 py-2 bg-slate-900 text-white rounded-full hover:bg-slate-900/90 transition-all hover:shadow-xl hover:shadow-brand-100 active:scale-95 text-sm font-bold"
             >
               Contact Us
             </a>
